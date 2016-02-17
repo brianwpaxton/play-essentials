@@ -1,0 +1,382 @@
+New log file opened at Tue Feb 16 22:02:07 GMT 2016 by 5048@MA-VPC-023
+jvm 5048@MA-VPC-023
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.71-b15
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\code\play\play-essentials\shop
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\code\play\play-essentials\shop\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\code\play\play-essentials\shop\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\code\play\play-essentials\shop\project, returning: (shop-build)
+Loading project definition from C:\code\play\play-essentials\shop\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2e0a255c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\code\play\play-essentials\shop
+[Loading] Found root project root w/ remaining 
+deducing auto plugins based on known facts Set(Atom(play.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,play.PlayJava,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.jse.SbtJsTask,play.twirl.sbt.SbtTwirl,com.typesafe.sbt.webdriver.SbtWebDriver,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.jse.SbtJsEngine,play.sbt.forkrun.PlayForkRun)
+sorting: ns: List(sbt.plugins.CorePlugin, play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.jse.SbtJsEngine, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb) not found List(play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.jse.SbtJsEngine, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine) not found List(play.PlayJava, play.Play, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask) not found List(play.PlayJava, play.Play, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List(play.PlayJava, play.Play, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.Play) not found List(play.PlayJava, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun)
+[Loading] Done in C:\code\play\play-essentials\shop, returning: (root)
+Set current project to shop (in build file:/C:/code/play/play-essentials/shop/)
+Reapplying settings...
+Set current project to shop (in build file:/C:/code/play/play-essentials/shop/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@2d45b45f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 16-Feb-2016 22:02:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d42cbce, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:02:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@438a3536, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 16-Feb-2016 22:02:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@6810005, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:02:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@674a8e1e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 16-Feb-2016 22:02:35
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e1f9f51, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:02:35
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@39b48760, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:02:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@48186719, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:02:41
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@7f23614d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\code\play\play-essentials\shop\conf\application.conf,C:\code\play\play-essentials\shop\target\scala-2.10\classes\application.conf)
+	(C:\code\play\play-essentials\shop\conf\routes,C:\code\play\play-essentials\shop\target\scala-2.10\classes\routes)
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\test-classes...
+Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@53683622 directly...
+Read from stdout: C:\code\play\play-essentials\shop\test\ItemsTest.java:13: ')' expected
+C:\code\play\play-essentials\shop\test\ItemsTest.java:13: ')' expected
+Read from stdout: C:\code\play\play-essentials\shop\test\ItemsTest.java:15: reached end of file while parsing
+C:\code\play\play-essentials\shop\test\ItemsTest.java:15: reached end of file while parsing
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 16-Feb-2016 22:02:56
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@398ae1da, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 16-Feb-2016 22:03:42
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@14bd08d6, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:03:42
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@627a246f, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:03:43
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@29973426, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:03:47
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@4093b52f, check cycles: false
+Total time: 0 s, completed 16-Feb-2016 22:03:48
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@373aff41, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\code\play\play-essentials\shop\conf\application.conf,C:\code\play\play-essentials\shop\target\scala-2.10\classes\application.conf)
+	(C:\code\play\play-essentials\shop\conf\routes,C:\code\play\play-essentials\shop\target\scala-2.10\classes\routes)
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\test-classes...
+Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@564bf109 directly...
+Java compilation took 0.439904789 s
+Java analysis took 0.147725721 s
+Java compile + analysis took 0.597618154 s
+Invalidating C:\code\play\play-essentials\shop\test\ItemsTest.java...
+Invalidating (transitively) by inheritance from C:\code\play\play-essentials\shop\test\ItemsTest.java...
+Initial set of included nodes: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+Invalidated by transitive inheritance dependency: Set(C:\code\play\play-essentials\shop\test\ItemsTest.java)
+The C:\code\play\play-essentials\shop\test\ItemsTest.java source file has the following regular definitions changed:
+	notify, wait, equals, ItemsTest, notifyAll, <init>, toString, listItems, getClass, lambda$listItems$0, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\test\ItemsTest.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@2e784c06), (org.specs2.specification.SpecificationStructure,true,specs2 Specification fingerprint), (org.specs2.specification.SpecificationStructure,false,specs2 Specification fingerprint), (org.specs2.runner.FilesRunner,true,specs2 Specification files fingerprint), (org.specs2.runner.FilesRunner,false,specs2 Specification files fingerprint))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@6b9858af), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@76c31a6))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for com.novocode.junit.JUnitFramework produced 1 initial tasks for 1 tests.
+  Running TaskDef(ItemsTest, sbt.ForkMain$AnnotatedFingerscan@2842f64, false, [SuiteSelector])
+Test run started
+Test ItemsTest.listItems started
+Test ItemsTest.listItems finished, took 1.062 sec
+Test run finished: 0 failed, 0 ignored, 1 total, 1.066s
+    Produced 0 nested tasks and 1 events.
+Runner for org.specs2.runner.Specs2Framework produced 0 initial tasks for 0 tests.
+Summary for JUnit not available.
+Summary for specs2 not available.
+Read from stdout: Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed tests:
+	ItemsTest
+Total time: 6 s, completed 16-Feb-2016 22:04:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@3a14a47c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 17-Feb-2016 08:50:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/play-essentials/shop/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@ab389e7, check cycles: false
+Total time: 0 s, completed 17-Feb-2016 08:50:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 5048@MA-VPC-023 logs at Wed Feb 17 21:29:30 GMT 2016, goodbye.
