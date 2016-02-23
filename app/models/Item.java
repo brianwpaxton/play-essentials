@@ -1,10 +1,22 @@
 package models;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name = "items")
 public class Item {
-    public final Long id;
-    public final String name;
-    public final Double price;
+	@Id
+    public Long id;
     
+	public String name;
+    public Double price;
+    
+	public Item() {}
+	
     public Item(Long id, String name, Double price) {
         this.id = id;
         this.name = name;
