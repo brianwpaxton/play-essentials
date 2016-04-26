@@ -1,5 +1,7 @@
 package controllers;
 
+
+import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
 import play.mvc.BodyParser;
@@ -14,23 +16,31 @@ public class Items extends Controller {
     static final Shop shop = Shop.Shop;
     
     public static Result list() {
-        return ok(Json.toJson(shop.list()));
+        return ok(views.html.list.render(shop.list()));
     }
-    
-	@BodyParser.Of(BodyParser.Json.class)
+
+	public static Result createForm() {
+		return ok(views.html.addForm.render(Form.form(CreateItem.class)));
+	}
+
+	@BodyParser.Of(BodyParser.FormUrlEncoded.class)
     public static Result create() {
-        JsonNode json = request().body().asJson();
+		Form<CreateItem> submission = Form.form(CreateItem.class).bindFromRequest();
+		if (submission.hasErrors()) {
+			return badRequest(views.html.addForm.render(submission));
+		}
+
 		CreateItem createItem;
 		
 		try {
-			createItem = Json.fromJson(json, CreateItem.class);
+			createItem = submission.get();
 		} catch (RuntimeException e) {
 			return badRequest();
 		} 
 		
 		Item item = shop.create(createItem.name, createItem.price);
 		if (item != null) {
-			return ok(Json.toJson(item));
+			return ok(views.html.details.render(item));
 		} else {
 			return internalServerError();
 		}
@@ -39,7 +49,7 @@ public class Items extends Controller {
     public static Result details(Long id) {
         Item item = shop.get(id);
         if(item != null) {
-            return ok(Json.toJson(item));
+            return ok(views.html.details.render(item));
         } else {
             return notFound();
         }

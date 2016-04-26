@@ -1,0 +1,13 @@
+@(items: Collection[models.Item])
+@layout("Items list") {
+       <ul>
+           @for(item <- items) {
+
+                <li>
+                    <a href="@controllers.routes.Application.details(item.id)">
+                        @item.name
+                    </a>
+                </li>
+           }
+       </ul>
+}

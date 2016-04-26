@@ -1,5 +1,5 @@
-New log file opened at Sun Feb 21 21:20:27 GMT 2016 by 10596@MA-VPC-023
-jvm 10596@MA-VPC-023
+New log file opened at Mon Apr 18 21:36:54 BST 2016 by 1396@MA-VPC-023
+jvm 1396@MA-VPC-023
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.71-b15
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -7,16 +7,16 @@ Starting event engine
 Starting sbt command engine
 Waiting for sbt command engine
 Command engine arguments=List()
-Command engine baseDirectory=C:\code\play\play-essentials\shop
+Command engine baseDirectory=C:\code\play\shop\play-essentials
 Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
 > --initialize
 > initialize
 > onFailure load-failed
 > boot
 > reload
-[Loading] Scanning directory C:\code\play\play-essentials\shop\project
+[Loading] Scanning directory C:\code\play\shop\play-essentials\project
 [Loading] Found non-root projects 
-[Loading] Done in C:\code\play\play-essentials\shop\project, returning: ()
+[Loading] Done in C:\code\play\shop\play-essentials\project, returning: ()
 deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
 sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
@@ -25,9 +25,9 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in C:\code\play\play-essentials\shop\project, returning: (shop-build)
-Loading project definition from C:\code\play\play-essentials\shop\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2a21b614, check cycles: false
+[Loading] Done in C:\code\play\shop\play-essentials\project, returning: (play-essentials-build)
+Loading project definition from C:\code\play\shop\play-essentials\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@155d04b7, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -46,8 +46,8 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-[Loading] Scanning directory C:\code\play\play-essentials\shop
-[Loading] Found root project root w/ remaining 
+[Loading] Scanning directory C:\code\play\shop\play-essentials
+[Loading] Found root project pfe-java w/ remaining 
 deducing auto plugins based on known facts Set(Atom(play.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,play.PlayJava,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.jse.SbtJsTask,play.twirl.sbt.SbtTwirl,com.typesafe.sbt.webdriver.SbtWebDriver,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.jse.SbtJsEngine,play.sbt.forkrun.PlayForkRun)
 sorting: ns: List(sbt.plugins.CorePlugin, play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.jse.SbtJsEngine, play.sbt.forkrun.PlayForkRun)
@@ -58,736 +58,390 @@ sorting: ns: List(sbt.plugins.CorePlugin, play.PlayJava, sbt.plugins.Interaction
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.Play) not found List(play.PlayJava, play.sbt.forkrun.PlayForkRun)
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun)
-[Loading] Done in C:\code\play\play-essentials\shop, returning: (root)
-Set current project to shop (in build file:/C:/code/play/play-essentials/shop/)
+[Loading] Done in C:\code\play\shop\play-essentials, returning: (pfe-java)
+Set current project to shop (in build file:/C:/code/play/shop/play-essentials/)
 Reapplying settings...
-Set current project to shop (in build file:/C:/code/play/play-essentials/shop/)
+Set current project to shop (in build file:/C:/code/play/shop/play-essentials/)
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4da16623, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@59ec2b12, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
-Total time: 2 s, completed 21-Feb-2016 21:20:33
+Read from stdout: Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@6772b911 directly...
+Read from stdout: C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+Read from stdout: symbol:   variable json
+Read from stdout: location: class controllers.Items
+C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+  symbol:   variable json
+  location: class controllers.Items
+Read from stdout: json
+json
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 4 s, completed 18-Apr-2016 21:37:04
+> server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/compile:discoveredMainClasses
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@40032025, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@1b73fbf, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
-Total time: 0 s, completed 21-Feb-2016 21:20:34
+Read from stdout: Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@50ad50b directly...
+Read from stdout: C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+Read from stdout: symbol:   variable json
+Read from stdout: location: class controllers.Items
+C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+  symbol:   variable json
+  location: class controllers.Items
+Read from stdout: json
+json
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 18-Apr-2016 21:37:05
+> server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/compile:mainClass
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@7f08ceea, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:20:34
+Running task... Cancel: sbt.server.ServerTaskCancellation@3b395cdf, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:37:05
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/compile:discoveredMainClasses
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@3c095b93, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@1f400292, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
-Total time: 0 s, completed 21-Feb-2016 21:20:34
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@68ef67b, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@793a131c directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\models\Item.java:3: cannot find symbol
-Read from stdout: symbol: class Entity
-C:\code\play\play-essentials\shop\app\models\Item.java:3: cannot find symbol
-  symbol: class Entity
-Read from stdout: Entity
-Entity
-Read from stdout: C:\code\play\play-essentials\shop\app\models\Item.java:4: cannot find symbol
-Read from stdout: symbol: class Table
-C:\code\play\play-essentials\shop\app\models\Item.java:4: cannot find symbol
-  symbol: class Table
-Read from stdout: Table
-Table
-Read from stdout: C:\code\play\play-essentials\shop\app\models\Item.java:6: cannot find symbol
-Read from stdout: symbol:   class IdAssignmentPolicy
-Read from stdout: location: class models.Item
-C:\code\play\play-essentials\shop\app\models\Item.java:6: cannot find symbol
-  symbol:   class IdAssignmentPolicy
-  location: class models.Item
-Read from stdout: IdAssignmentPolicy
-IdAssignmentPolicy
+Read from stdout: Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@26166513 directly...
+Read from stdout: C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+Read from stdout: symbol:   variable json
+Read from stdout: location: class controllers.Items
+C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+  symbol:   variable json
+  location: class controllers.Items
+Read from stdout: json
+json
 Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
 (compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed 21-Feb-2016 21:35:21
+Total time: 0 s, completed 18-Apr-2016 21:37:05
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@bb4b8c9, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:37:05
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@32a4edc9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Read from stdout: Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@13205332 directly...
+Read from stdout: C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+Read from stdout: symbol:   variable json
+Read from stdout: location: class controllers.Items
+C:\code\play\shop\play-essentials\app\controllers\Items.java:33: cannot find symbol
+  symbol:   variable json
+  location: class controllers.Items
+Read from stdout: json
+json
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 0 s, completed 18-Apr-2016 21:37:06
 > server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@59a5d951, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4f5c2924, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
+	modified: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@1d06ada directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\models\Item.java:18: variable id might not have been initialized
-C:\code\play\play-essentials\shop\app\models\Item.java:18: variable id might not have been initialized
-Read from stdout: {}
-{}
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:36:53
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@7363bbb3, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@6196e877 directly...
-Java compilation took 0.141908367 s
-Java analysis took 0.078616403 s
-Java compile + analysis took 0.232668032 s
-Invalidating C:\code\play\play-essentials\shop\app\models\Item.java...
-Invalidating (transitively) by inheritance from C:\code\play\play-essentials\shop\app\models\Item.java...
-Initial set of included nodes: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-Invalidated by transitive inheritance dependency: Set(C:\code\play\play-essentials\shop\app\models\Item.java)
-The C:\code\play\play-essentials\shop\app\models\Item.java source file has the following regular definitions changed:
-	name, price, <init>, id, Item.
+Read from stdout: Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@24835b38 directly...
+Java compilation took 0.218800489 s
+Java analysis took 0.140018213 s
+Java compile + analysis took 0.374919129 s
+Invalidating C:\code\play\shop\play-essentials\app\controllers\Items.java...
+Invalidating (transitively) by inheritance from C:\code\play\shop\play-essentials\app\controllers\Items.java...
+Initial set of included nodes: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+Invalidated by transitive inheritance dependency: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+The C:\code\play\shop\play-essentials\app\controllers\Items.java source file has the following regular definitions changed:
+	create.
 All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\models\Item.java
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\controllers\Items.java
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\models\Shop.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\shop\play-essentials\app\controllers\Items.java
+The following modified names cause invalidation of C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala: Set(create)
+The following modified names cause invalidation of C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala: Set(create)
 New invalidations:
-	Set(C:\code\play\play-essentials\shop\app\controllers\Items.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-Initial set of included nodes: Set(C:\code\play\play-essentials\shop\app\controllers\Items.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-Including C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\routes_reverseRouting.scala by C:\code\play\play-essentials\shop\app\controllers\Items.java
-Including C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\controllers\routes.java by C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\routes_reverseRouting.scala
-Including C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\routes_routing.scala by C:\code\play\play-essentials\shop\app\controllers\Items.java
+	Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+Initial set of included nodes: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+Including C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala
+Including C:\code\play\shop\play-essentials\app\controllers\Application.java by C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\addForm.template.scala by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java
+Including C:\code\play\shop\play-essentials\app\controllers\Items.java by C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\addForm.template.scala
 Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set(C:\code\play\play-essentials\shop\app\controllers\Items.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-Read from stdout: Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@6196e877 directly...
-Java compilation took 0.199235081 s
-Java analysis took 0.101093458 s
-Java compile + analysis took 0.311159304 s
+	Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+Read from stdout: Compiling 2 Scala sources and 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 2 Scala sources and 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 7e36c3e, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 3.32237327 s
+Attempting to call com.sun.tools.javac.api.JavacTool@24835b38 directly...
+Java compilation took 0.154680622 s
+Java analysis took 0.087713536 s
+Java compile + analysis took 0.257362093 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed 21-Feb-2016 21:39:15
+Total time: 5 s, completed 18-Apr-2016 21:43:08
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@13374630, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:39:15
+Running task... Cancel: sbt.server.ServerTaskCancellation@7031d21e, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:43:08
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/*:playForkConfig
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@22ca04b8, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:39:17
+Running task... Cancel: sbt.server.ServerTaskCancellation@39c41fdd, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:43:10
 > server-post-command-cleanup
 > server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
+> pfe-java/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@79291819, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:39:18
+Running task... Cancel: sbt.server.ServerTaskCancellation@3951666, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:43:10
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2851bd64, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@2d5c0763, check cycles: false
 
 Initial source changes: 
 	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
 
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@62048a28 directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:5: cannot find symbol
-Read from stdout: symbol:   class Application
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:5: cannot find symbol
-  symbol:   class Application
-  location: class Global
-Read from stdout: Application
-Application
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:8: cannot find symbol
-Read from stdout: symbol:   variable Shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:8: cannot find symbol
-  symbol:   variable Shop
-  location: class Global
-Read from stdout: Shop
-Shop
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:9: cannot find symbol
-Read from stdout: symbol:   variable Shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:9: cannot find symbol
-  symbol:   variable Shop
-  location: class Global
-Read from stdout: Shop
-Shop
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:44:06
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@961cfbc, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@6b0261a2 directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:9: cannot find symbol
-Read from stdout: symbol:   variable Shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:9: cannot find symbol
-  symbol:   variable Shop
-  location: class Global
-Read from stdout: Shop
-Shop
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:10: cannot find symbol
-Read from stdout: symbol:   variable Shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:10: cannot find symbol
-  symbol:   variable Shop
-  location: class Global
-Read from stdout: Shop
-Shop
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:44:32
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@751a45ce, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@7cdcb1dc directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:4: '.' expected
-C:\code\play\play-essentials\shop\app\Global.java:4: '.' expected
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:4: ';' expected
-C:\code\play\play-essentials\shop\app\Global.java:4: ';' expected
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:44:51
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2503b625, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@72df5139 directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:11: non-static method list() cannot be referenced from a static context
-C:\code\play\play-essentials\shop\app\Global.java:11: non-static method list() cannot be referenced from a static context
-Read from stdout: Shop.list
-Shop.list
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:12: non-static method create(java.lang.String,java.lang.Double) cannot be referenced from a static context
-C:\code\play\play-essentials\shop\app\Global.java:12: non-static method create(java.lang.String,java.lang.Double) cannot be referenced from a static context
-Read from stdout: Shop.create
-Shop.create
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:45:04
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@5f01b7a, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@28a8e6e9 directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:11: non-static method list() cannot be referenced from a static context
-C:\code\play\play-essentials\shop\app\Global.java:11: non-static method list() cannot be referenced from a static context
-Read from stdout: Shop.list
-Shop.list
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:45:46
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@6c05bce3, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@304262dd directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:11: non-static method list() cannot be referenced from a static context
-C:\code\play\play-essentials\shop\app\Global.java:11: non-static method list() cannot be referenced from a static context
-Read from stdout: Shop.list
-Shop.list
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:12: non-static method create(java.lang.String,java.lang.Double) cannot be referenced from a static context
-C:\code\play\play-essentials\shop\app\Global.java:12: non-static method create(java.lang.String,java.lang.Double) cannot be referenced from a static context
-Read from stdout: Shop.create
-Shop.create
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:46:02
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@40586c51, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@5b898d88 directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:11: cannot find symbol
-Read from stdout: symbol:   variable shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:11: cannot find symbol
-  symbol:   variable shop
-  location: class Global
-Read from stdout: shop
-shop
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:12: cannot find symbol
-Read from stdout: symbol:   variable shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:12: cannot find symbol
-  symbol:   variable shop
-  location: class Global
-Read from stdout: shop
-shop
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:50:43
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@404cca6, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set(C:\code\play\play-essentials\shop\app\models\Shop.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-
-Read from stdout: Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@24df4beb directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:11: cannot find symbol
-Read from stdout: symbol:   variable shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:11: cannot find symbol
-  symbol:   variable shop
-  location: class Global
-Read from stdout: shop
-shop
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:12: cannot find symbol
-Read from stdout: symbol:   variable shop
-Read from stdout: location: class Global
-C:\code\play\play-essentials\shop\app\Global.java:12: cannot find symbol
-  symbol:   variable shop
-  location: class Global
-Read from stdout: shop
-shop
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:51:21
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1bb64a04, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set(C:\code\play\play-essentials\shop\app\models\Shop.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-
-Read from stdout: Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@51fd417a directly...
-Java compilation took 0.137274167 s
-Java analysis took 0.036816628 s
-Java compile + analysis took 0.185205375 s
-Invalidating C:\code\play\play-essentials\shop\app\Global.java...
-Invalidating (transitively) by inheritance from C:\code\play\play-essentials\shop\app\Global.java...
-Initial set of included nodes: Set(C:\code\play\play-essentials\shop\app\Global.java)
-Invalidated by transitive inheritance dependency: Set(C:\code\play\play-essentials\shop\app\Global.java)
-The C:\code\play\play-essentials\shop\app\Global.java source file has the following regular definitions changed:
-	notify, Global, wait, equals, getControllerInstance, onRequest, onLoadConfig, notifyAll, <init>, onError, onHandlerNotFound, filters, beforeStart, onBadRequest, toString, getClass, onStop, onStart, onRouteRequest, hashCode.
-All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\Global.java
-Invalidating C:\code\play\play-essentials\shop\app\models\Shop.java...
-Invalidating (transitively) by inheritance from C:\code\play\play-essentials\shop\app\models\Shop.java...
-Initial set of included nodes: Set(C:\code\play\play-essentials\shop\app\models\Shop.java)
-Invalidated by transitive inheritance dependency: Set(C:\code\play\play-essentials\shop\app\models\Shop.java)
-The C:\code\play\play-essentials\shop\app\models\Shop.java source file has the following regular definitions changed:
-	Shop, shop.
-All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\Global.java
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\models\Shop.java
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\controllers\Items.java
-New invalidations:
-	Set(C:\code\play\play-essentials\shop\app\controllers\Items.java)
-Initial set of included nodes: Set(C:\code\play\play-essentials\shop\app\controllers\Items.java)
-Including C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\routes_reverseRouting.scala by C:\code\play\play-essentials\shop\app\controllers\Items.java
-Including C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\controllers\routes.java by C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\routes_reverseRouting.scala
-Including C:\code\play\play-essentials\shop\target\scala-2.10\src_managed\main\routes_routing.scala by C:\code\play\play-essentials\shop\app\controllers\Items.java
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set(C:\code\play\play-essentials\shop\app\controllers\Items.java)
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@51fd417a directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\controllers\Items.java:14: cannot find symbol
-Read from stdout: symbol:   variable Shop
-Read from stdout: location: interface models.Shop
-C:\code\play\play-essentials\shop\app\controllers\Items.java:14: cannot find symbol
-  symbol:   variable Shop
-  location: interface models.Shop
-Read from stdout: Shop.Shop
-Shop.Shop
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:52:19
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@65b9ad48, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set(C:\code\play\play-essentials\shop\app\models\Shop.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java, C:\code\play\play-essentials\shop\app\models\Shop.java)
-
-Read from stdout: Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 2 Java sources to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@5b9be46f directly...
-Read from stdout: C:\code\play\play-essentials\shop\app\Global.java:8: cannot find symbol
-Read from stdout: symbol:   variable Shop
-Read from stdout: location: interface models.Shop
-C:\code\play\play-essentials\shop\app\Global.java:8: cannot find symbol
-  symbol:   variable Shop
-  location: interface models.Shop
-Read from stdout: Shop.Shop
-Shop.Shop
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 0 s, completed 21-Feb-2016 21:54:09
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2ccb4637, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(C:\code\play\play-essentials\shop\app\Global.java)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\code\play\play-essentials\shop\app\Global.java)
-
-Read from stdout: Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Compiling 1 Java source to C:\code\play\play-essentials\shop\target\scala-2.10\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@5cbd61bc directly...
-Java compilation took 0.116316845 s
-Java analysis took 0.025085076 s
-Java compile + analysis took 0.151754266 s
-Invalidating C:\code\play\play-essentials\shop\app\Global.java...
-Invalidating (transitively) by inheritance from C:\code\play\play-essentials\shop\app\Global.java...
-Initial set of included nodes: Set(C:\code\play\play-essentials\shop\app\Global.java)
-Invalidated by transitive inheritance dependency: Set(C:\code\play\play-essentials\shop\app\Global.java)
-The C:\code\play\play-essentials\shop\app\Global.java source file has the following regular definitions changed:
-	notify, Global, shop, wait, equals, getControllerInstance, onRequest, onLoadConfig, notifyAll, <init>, onError, onHandlerNotFound, filters, beforeStart, onBadRequest, toString, getClass, onStop, onStart, onRouteRequest, hashCode.
-All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\play-essentials\shop\app\Global.java
+Read from stdout: Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@254aa590 directly...
+Java compilation took 0.165679501 s
+Java analysis took 0.078564777 s
+Java compile + analysis took 0.258383271 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 0 s, completed 21-Feb-2016 21:54:23
+Total time: 1 s, completed 18-Apr-2016 21:44:57
 > server-post-command-cleanup
 > server-handle-next-server-request
 > jobStop 1
 Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@bf8931a, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:54:23
+Running task... Cancel: sbt.server.ServerTaskCancellation@4afaf8ee, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:44:57
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@32809a0e, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:54:23
+Running task... Cancel: sbt.server.ServerTaskCancellation@48b2f3da, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:44:57
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/*:playForkConfig
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@3eb786f5, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:54:24
+Running task... Cancel: sbt.server.ServerTaskCancellation@119cd57e, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:44:59
 > server-post-command-cleanup
 > server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
+> pfe-java/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@58f2bf10, check cycles: false
-Total time: 0 s, completed 21-Feb-2016 21:54:25
+Running task... Cancel: sbt.server.ServerTaskCancellation@544c4a21, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 21:44:59
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/*:playForkReload
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@29f209a1, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@e24b17d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala)
+	modified: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala, C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala, C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala, C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala, C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala, C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 3 Scala sources to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 122de868, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 0.926613743 s
+Invalidating C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala...
+Invalidating (transitively) by inheritance from C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala...
+Initial set of included nodes: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala)
+Invalidated by transitive inheritance dependency: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala)
+The C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala source file has the following regular definitions changed:
+	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, immutableSeq, apply, ==, clone, copy, toString, !=, getClass, layout, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala: Set(format, _display_, apply, layout)
+The following modified names cause invalidation of C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala: Set(format, _display_, apply, layout)
+New invalidations:
+	Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala, C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala)
+Initial set of included nodes: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala, C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala)
+Including C:\code\play\shop\play-essentials\app\controllers\Items.java by C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala by C:\code\play\shop\play-essentials\app\controllers\Items.java
+Including C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala
+Including C:\code\play\shop\play-essentials\app\controllers\Application.java by C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala by C:\code\play\shop\play-essentials\app\controllers\Application.java
+Including C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\addForm.template.scala by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 2 s, completed 18-Apr-2016 22:13:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@746b646d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -805,14 +459,151 @@ Sources indirectly invalidated by:
 All initially invalidated sources: Set()
 
 Copy resource mappings: 
-	(C:\code\play\play-essentials\shop\conf\application.conf,C:\code\play\play-essentials\shop\target\scala-2.10\classes\application.conf)
-	(C:\code\play\play-essentials\shop\conf\routes,C:\code\play\play-essentials\shop\target\scala-2.10\classes\routes)
-Total time: 0 s, completed 21-Feb-2016 21:55:38
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 0 s, completed 18-Apr-2016 22:13:40
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@6105124c, check cycles: false
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7c83cdf0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\code\play\shop\play-essentials\app\controllers\Items.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Read from stdout: Compiling 2 Scala sources and 2 Java sources to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 2 Scala sources and 2 Java sources to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 5d63cfc3, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 2.200260998 s
+Attempting to call com.sun.tools.javac.api.JavacTool@70c39c23 directly...
+Read from stdout: C:\code\play\shop\play-essentials\app\controllers\Items.java:23: method render in class views.html.addForm cannot be applied to given types;
+Read from stdout: required: play.data.Form<models.CreateItem>
+Read from stdout: found: no arguments
+Read from stdout: reason: actual and formal argument lists differ in length
+C:\code\play\shop\play-essentials\app\controllers\Items.java:23: method render in class views.html.addForm cannot be applied to given types;
+  required: play.data.Form<models.CreateItem>
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+Read from stdout: views.html.addForm.render
+views.html.addForm.render
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 3 s, completed 18-Apr-2016 22:20:12
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6ac9c48e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\code\play\shop\play-essentials\app\controllers\Items.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Read from stdout: Compiling 2 Scala sources and 2 Java sources to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 2 Scala sources and 2 Java sources to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 242f4bfe, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 1.522989923 s
+Attempting to call com.sun.tools.javac.api.JavacTool@615a96db directly...
+Java compilation took 0.221693102 s
+Java analysis took 0.098698995 s
+Java compile + analysis took 0.335346611 s
+Invalidating C:\code\play\shop\play-essentials\app\controllers\Items.java...
+Invalidating (transitively) by inheritance from C:\code\play\shop\play-essentials\app\controllers\Items.java...
+Initial set of included nodes: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+Invalidated by transitive inheritance dependency: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+The C:\code\play\shop\play-essentials\app\controllers\Items.java source file has the following regular definitions changed:
+	createForm.
+All member reference dependencies will be considered within this context.
+None of the modified names appears in C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala. This dependency is not being considered for invalidation.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\shop\play-essentials\app\controllers\Items.java
+None of the modified names appears in C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala. This dependency is not being considered for invalidation.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed 18-Apr-2016 22:22:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@c3c073c, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:22:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e317c43, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:22:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@7087d3d3, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:22:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> pfe-java/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@47cd3d5c, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:22:57
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5f3f1375, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -829,12 +620,383 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed 22-Feb-2016 09:05:52
+Total time: 0 s, completed 18-Apr-2016 22:24:03
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/C:/code/play/play-essentials/shop/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@304176b, check cycles: false
-Total time: 0 s, completed 22-Feb-2016 09:05:52
+> jobStop 3
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@710e3949, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:24:03
 > server-post-command-cleanup
 > server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7dd5a2e9, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:24:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@2003c196, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:24:05
+> server-post-command-cleanup
+> server-handle-next-server-request
+> pfe-java/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@4201c58, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:24:05
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@445e6475, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 0 s, completed 18-Apr-2016 22:24:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@9aa13ea, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+
+Read from stdout: Compiling 2 Scala sources and 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 2 Scala sources and 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 3fde97d, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 1.488273428 s
+Attempting to call com.sun.tools.javac.api.JavacTool@815f1c3 directly...
+Java compilation took 0.162649521 s
+Java analysis took 0.033803475 s
+Java compile + analysis took 0.212294082 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 2 s, completed 18-Apr-2016 22:26:17
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@24f3bf68, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java, C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+
+Read from stdout: Compiling 2 Scala sources and 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 2 Scala sources and 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 1c8d1fa1, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 1.335445294 s
+Attempting to call com.sun.tools.javac.api.JavacTool@36d529af directly...
+Java compilation took 0.168630142 s
+Java analysis took 0.03228809 s
+Java compile + analysis took 0.218094704 s
+Invalidating C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala...
+Invalidating (transitively) by inheritance from C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala...
+Initial set of included nodes: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+Invalidated by transitive inheritance dependency: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+The C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala source file has the following regular definitions changed:
+	createForm.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java
+None of the modified names appears in C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala. This dependency is not being considered for invalidation.
+None of the modified names appears in C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\addForm.template.scala. This dependency is not being considered for invalidation.
+New invalidations:
+	Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java)
+Initial set of included nodes: Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java)
+Including C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\controllers\routes.java
+Including C:\code\play\shop\play-essentials\app\controllers\Items.java by C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\list.template.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala by C:\code\play\shop\play-essentials\app\controllers\Items.java
+Including C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\addForm.template.scala by C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala
+Including C:\code\play\shop\play-essentials\app\controllers\Application.java by C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\addForm.template.scala
+Including C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_routing.scala by C:\code\play\shop\play-essentials\app\controllers\Application.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set(C:\code\play\shop\play-essentials\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 2 s, completed 18-Apr-2016 22:26:47
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@773b3308, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\app\controllers\Items.java)
+
+Read from stdout: Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Java source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@5b5e2b directly...
+Java compilation took 0.14764764 s
+Java analysis took 0.077080576 s
+Java compile + analysis took 0.241211535 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 18-Apr-2016 22:29:44
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@29e6741c, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:29:44
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@156d8f6b, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:29:44
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@2e73980f, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:29:46
+> server-post-command-cleanup
+> server-handle-next-server-request
+> pfe-java/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@1815e334, check cycles: false
+Total time: 0 s, completed 18-Apr-2016 22:29:47
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4505c8bb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 0 s, completed 18-Apr-2016 22:31:21
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7d932e0d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\layout.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 79d75f33, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 0.506950286 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 1 s, completed 18-Apr-2016 22:32:51
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/code/play/shop/play-essentials/}pfe-java/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2316f49, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\code\play\shop\play-essentials\target\scala-2.10\twirl\main\views\html\details.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\code\play\shop\play-essentials\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 6b4781f5, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\code\play\shop\play-essentials\target\scala-2.10\classes;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\twirl-api_2.10\jars\twirl-api_2.10-1.0.2.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\bpaxton\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\bpaxton\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\bpaxton\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\Users\bpaxton\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\bpaxton\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bpaxton\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bpaxton\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\bpaxton\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\bpaxton\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\Users\bpaxton\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\bpaxton\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\bpaxton\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\bpaxton\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jpa_2.10\jars\play-java-jpa_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.10.jar;C:\Users\bpaxton\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bpaxton\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\bpaxton\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\jars\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-4.3.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\jars\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\bpaxton\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\bpaxton\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\bpaxton\.ivy2\cache\org.jboss\jandex\jars\jandex-1.1.0.Final.jar
+Scala compilation took 0.440700037 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\code\play\shop\play-essentials\conf\application.conf,C:\code\play\shop\play-essentials\target\scala-2.10\classes\application.conf)
+	(C:\code\play\shop\play-essentials\conf\evolutions,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions)
+	(C:\code\play\shop\play-essentials\conf\META-INF,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF)
+	(C:\code\play\shop\play-essentials\conf\routes,C:\code\play\shop\play-essentials\target\scala-2.10\classes\routes)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default)
+	(C:\code\play\shop\play-essentials\conf\evolutions\default\1.sql,C:\code\play\shop\play-essentials\target\scala-2.10\classes\evolutions\default\1.sql)
+	(C:\code\play\shop\play-essentials\conf\META-INF\persistence.xml,C:\code\play\shop\play-essentials\target\scala-2.10\classes\META-INF\persistence.xml)
+Total time: 1 s, completed 18-Apr-2016 22:33:59
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 1396@MA-VPC-023 logs at Tue Apr 19 09:51:33 BST 2016, goodbye.
